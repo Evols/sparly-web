@@ -1,0 +1,88 @@
+{
+  "name": "cloveria",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^1.2.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.11.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "@types/ejs": "^3.0.5",
+    "@types/uuid": "^8.3.0",
+    "axios": "^0.21.0",
+    "ejs": "^3.1.5",
+    "jquery": "^3.5.1",
+    "jquery-datepicker": "^1.12.3",
+    "lorem-ipsum": "^2.0.3",
+    "luxon": "^1.25.0",
+    "material-ui-dropzone": "^3.5.0",
+    "object-array-methods": "^1.0.5",
+    "qs": "^6.9.4",
+    "react": "^17.0.1",
+    "react-device-detect": "^1.15.0",
+    "react-dom": "^17.0.1",
+    "react-images-upload": "^1.2.8",
+    "react-images-uploading": "^3.1.2",
+    "react-responsive-masonry": "^2.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-s3-uploader": "^5.0.0",
+    "react-scripts": "^4.0.0",
+    "react-sizeme": "^2.6.12",
+    "react-virtualized-auto-sizer": "^1.0.2",
+    "react-window": "^1.8.6",
+    "react-window-infinite-loader": "^1.0.5",
+    "stripe": "^8.132.0",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.0.3",
+    "unstated-next": "^1.1.0",
+    "use-onclickoutside": "^0.3.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/jquery": "^3.5.4",
+    "@types/luxon": "^1.25.0",
+    "@types/qs": "^6.9.5",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react-virtualized-auto-sizer": "^1.0.0",
+    "@types/react-window": "^1.8.2",
+    "@types/react-window-infinite-loader": "^1.0.3",
+    "@types/styled-components": "^5.1.4"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "yarn build & gcloud app deploy --project=zeta-courage-297215 --version=alpha --quiet & del /F /Q build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "typeScriptVersion": "4.0"
+}

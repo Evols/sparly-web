@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.main-text-container {
+  width: 800px;
+  text-align: left;
+  margin: auto;
+  margin-top: 50px;
+  z-index: 4;
+}
+.introduction-text-h1 {
+  font-size: 64px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+.main-text-container-p {
+  margin-right: 60px;
+  margin-left: 50px;
+}
+.main-button-introduction {
+  width: auto;
+  height: auto;
+  font-size: 1em;
+  padding: 1em 3.5em;
+  margin-top: 20px!important;
+  background-color: #ff0081;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin: auto;
+  margin-right: 70px;
+  cursor: pointer;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+.main-button-introduction:hover {
+  transform: scale(1.07);
+  background-color: #e60074;
+}

@@ -1,0 +1,20 @@
+.unsplashlogo-img {
+    width: 80%;
+}
+.MuiSvgIcon-root {
+    width: 90%;
+}
+.MuiButton-label {
+    text-transform: none;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.button-search-unsplash{
+    box-shadow: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+.button-search-unsplash:hover {
+    color : rgb(100, 100, 100)
+}

@@ -1,0 +1,101 @@
+.selector-images-container {
+    width: 100%;
+    height: 50vh;
+    background: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+.selector-images-container:focus {
+    outline: none;
+}
+.selector-images-items {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.selector-images-items:focus {
+    outline: none;
+}
+.selector-images-label {
+    font-size: 45px;
+    color: white;
+    font-weight: 800;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+}
+.selector-images-label:hover {
+    transform: scale(1.07);
+}
+.selector-images-container-filter {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.selector-container-h1 {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.selector-h1 {
+    font-size: 54px;
+}
+.main-button-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.main-button-in-left, .main-button-in-right {
+    width: 300px;
+    height: auto;
+    font-size: 1em;
+    padding: 1em 3.5em;
+    background-color: F1F1F1;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: rgb(15, 15, 15);
+    position: relative;
+    z-index: 6;
+    outline: none;
+    margin: auto;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(150, 150, 150, 0.5);
+  }
+.main-button-in-right {
+    color: white;
+    background-color: #ff0081;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+.main-button-in-right:hover {
+  transform: scale(1.07);
+  background-color: #e60074;
+}
+.main-button-in-left:hover {
+    transform: scale(1.07);
+}
+.select-label-container-type-selector {
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    margin-top: -8px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #ff0081;;
+}

@@ -1,0 +1,97 @@
+.banner-gradient{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: auto;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.sparly-logo{
+    width: 200px;
+    margin-top: 50px;
+}
+.payment-page-title{
+    font-size: 60px;
+    color: rgb(15, 15, 15);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    padding-top: 80px;
+}
+.payment-page-text{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: rgb(56, 56, 56);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 320;
+    line-height: 1.4;
+}
+.website-screenshot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.website-screenshot{
+    width: 400px;
+    border-radius: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 27px 46px 2px #BCBCBC;
+}
+.checkout-button{
+    width: 188px;
+    height: 56px;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 1em 3.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66px;
+    margin-bottom: 160px;
+    background-color: rgb(255, 0, 129);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: rgb(255 0 130 / 50%) 0px 2px 25px;
+}
+.checkout-button:hover{
+    transform: scale(1.07);
+    background-color: #e60074;
+}
+.checkout-button:focus{
+    outline: none;
+}
+.checkout-button:active{
+    outline: none;
+}
+.checkbox-container, .checkbox-container-a {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(56, 56, 56);
+}
+.checkbox-container-label {
+    margin-left: 10px;
+    line-height: 1.4em;
+}

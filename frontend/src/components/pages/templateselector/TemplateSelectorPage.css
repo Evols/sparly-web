@@ -1,0 +1,31 @@
+.container-template-image-selector {
+    width: auto;
+    height: 270px;
+    cursor: pointer;
+    box-shadow: 0px 27px 46px 2px #BCBCBC;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 80px;
+    z-index: 1;
+}
+.selector-template-image {
+    width: 100%;
+    margin-top: -7px;
+}
+.navbar-illustration-site-builder {
+    width: 100%;
+    height: auto;
+}
+.select-label-container {
+    width: auto;
+    color: white;
+    font-weight: 600;
+    margin-top: -70px;
+    z-index: 4;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    background-color: #ff0081;;
+}

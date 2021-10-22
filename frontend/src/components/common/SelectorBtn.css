@@ -1,0 +1,16 @@
+
+.selector-btn-selected {
+  width: 100px;
+  text-align: center;
+  background-color: #F3F4F3;
+  border-radius: 5px;
+}
+
+.history-selector-p {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,182 @@
+{
+  "id": "ri1",
+  "type": "restaurant",
+  "name": "Pizza Papa",
+  "screenshot": "https://cloverstatic.s3.eu-west-3.amazonaws.com/ri1-screenshot.jpg",
+
+  "defaults": {
+
+    "back_img": {
+      "type": "img",
+      "label": "Image de fond",
+      "value": {
+        "img_source": "unsplash",
+        "path": "MqT0asuoIcU",
+        "authorName": "Chad Montano",
+        "authorUsername": "briewilly"
+      }
+    },
+    "head_h2": {
+      "type": "title",
+      "label": "Haut du site"
+    },
+    "head_title": {
+      "type": "string",
+      "label": "Nom de votre site (n'est pas visible sur le site)",
+      "value": "Pizza Papa - Pizzeria à République"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Pizza Papa"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Pizzeria. République, Paris 75011."
+    },
+
+    "discover_h2": {
+      "type": "title",
+      "label": "En savoir plus pour vous"
+    },
+    "discover_img": {
+      "type": "img",
+      "label": "Image d'illustration",
+      "value": {
+        "img_source": "unsplash",
+        "path": "12eHC6FxPyg",
+        "authorName": "Eaters Collective",
+        "authorUsername": "eaterscollective"
+      }
+    },
+    "discover_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Une bonne journée commence toujours<br/>avec une bonne pizza."
+    },
+    "discover_values": {
+      "type": "string",
+      "label": "Votre histoire",
+      "value": "L'idée nait en 2018 d'un passioné de pizza et d'une bande de potes accros à la culture italienne."
+    },
+    "discover_history": {
+      "type": "string",
+      "label": "La naissance de votre commerce",
+      "value": "Après des centaines de clients servis, et avoir déniché le meilleur ingrédients parmis les plus grands fournisseurs italiens, Luigi a ouvert son restaurant à République, au centre de la capitale."
+    },
+
+    "board_h2": {
+      "type": "title",
+      "label": "Carte"
+    },
+    "board_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Un service toujours parfait, des pizzas uniques et beaucoup de convivialité."
+    },
+    "board_subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Réservez avec un simple appel, on s'occupe de tout le reste. Venez comme vous êtes, comme dans votre fastfood préféré."
+    },
+    "board_dishes": {
+      "type": "array",
+      "label": "Vos principaux plats",
+      "default": {
+        "title": {
+          "type": "string",
+          "label": "Nom",
+          "value": "4 Fromages"
+        },
+        "description": {
+          "type": "string",
+          "label": "Description",
+          "value": "Chèvre, mozzarella, parmesan, gorgonzolla."
+        },
+        "price": {
+          "type": "string",
+          "label": "Prix",
+          "value": "12,00 €"
+        }
+      },
+      "value": [
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Cannibale"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Poulet, viande hachée."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "14,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Campione"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Viande hachée, oeuf, champignons."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Regina"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Chorizo, champignons, olives."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        }
+      ]
+    },
+    "products_h2": {
+      "type": "title",
+      "label": "Vos produits"
+    },
+    "products_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Les meilleurs produits<br/>pour votre bien."
+    },
+    "products_values": {
+      "type": "string",
+      "label": "Vos produits ont une histoire",
+      "value": "N'ayez plus peur de ce que vous mangez. Nous avons passé nos 2 dernières années à vous trouver les meilleurs produits pour assurer le meilleur goût possible."
+    },
+    "products_img": {
+      "type": "img",
+      "label": "Image d'illustration de produits",
+      "value": {
+        "img_source": "unsplash",
+        "path": "pGA4zHvpo5E",
+        "authorName": "Mahyar motebassem",
+        "authorUsername": "mahyarmotebassem"
+      }
+    }
+  }
+}

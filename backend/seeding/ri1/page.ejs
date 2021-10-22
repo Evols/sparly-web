@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Papa</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cloverstatic.s3.eu-west-3.amazonaws.com/ri1.css">
+    <meta name="robots" content="index">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="###">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="author" content="Sparly.io">
+    <meta name="copyright" content="Sparly.io">
+    <meta name="publisher" content= "Sparly.io">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="<%- head_title %>">
+    <meta property="og:description" content="<%- head_title %>">
+    <meta property="og:type" content="website">
+    <meta property="twitter:title" content="<%- head_title %>">
+    <meta property="twitter:description" content="<%- head_title %>">
+    <title><%- head_title %></title>
+    <meta name="description" content="<%- head_title %>">
+    <style>
+      .main-image-container{
+        background-image: url(<%- back_img %>);
+      }
+      .second-image-container{
+        background-image: url(<%- discover_img %>);
+      }
+      .third-image-container{
+        background-image: url(<%- products_img %>);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><%- title %></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active js-scrollTo" aria-current="page" href="#main-text-container">Notre restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scrollTo" href="#second-text-container">Notre carte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scrollTo" href="#contact">Nous contacter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-image-container">
+      <div class="filter">
+        <h1><%- title %></h1>
+        <h2><%- subtitle %></h2>
+      </div>
+    </div>
+    <div id="main-text-container">
+      <h3><%- discover_title %></h3>
+      <p><%- discover_values %></p>
+      <p><%- discover_history %></p>
+    </div>
+    <div class="second-image-container">
+      <div class="filter">
+        <h3 class="h3-white"><%- board_title %></h3>
+        <p class="p-white"><%- board_subtitle %></p>
+      </div>
+    </div>
+    <div id="second-text-container">
+      <h3>Notre carte</h3>
+      <div class="carte">
+
+        <% for (let e of board_dishes) { %>
+
+          <hr>
+          <div class="item">
+            <div class="top-item">
+              <div class="left-item">
+                <%- e.title %>
+              </div>
+              <div class="right-item">
+                <%- e.price %>
+              </div>
+            </div>
+            <div class="bottom-item">
+              <%- e.description %>
+            </div>
+          </div>
+
+          <% } %>
+
+      </div>
+    </div>
+    <div class="third-image-container">
+      <div class="filter">
+        <h3 class="h3-white"><%- products_title %></h3>
+        <p class="p-white"><%- products_values %></p>
+      </div>
+    </div>
+    <footer id="contact">
+      <section class="adresse">
+        <h4 class="location-title">Ou nous trouver ?</h4>
+        <h4 class="location-place"><%- location_place %></h4>
+        <h4 class="location-city"><%- location_city %></h4>
+        <%- `<a class="phone-number" href="tel:${location_phone_link}">${location_phone}</a>` %>
+        <p class="producer-tag">Fait avec beaucoup d'amour par <a class="location-link" href="https://sparly.io">Sparly</a>.</p>
+        <h4 class="unsplash_credits"><%- unsplash_credits || '' %></h4>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.js-scrollTo').on('click', function() {
+          var page = $(this).attr('href');
+          var speed = 750;
+          $('html, body').animate( { scrollTop: $(page).offset().top }, speed );
+          return false;
+        });
+      });
+    </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "<%- location_city %>",
+              "addressRegion": "France",
+              "streetAddress": "<%- location_place %>"
+            },
+            "email": "contact@sparly.io",
+            "legalName": "Clover Cloud Computing",
+            "sponsor": "The European Union (EU)",
+          }
+  </script>
+  </body>
+</html>

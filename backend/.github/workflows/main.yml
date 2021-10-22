@@ -1,0 +1,56 @@
+name: Sparly web
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: Node ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Installing NPM
+      run: npm install
+
+    - name: Building application
+      run: npm run build
+
+    - name: Generate deployment package
+      run: zip -r deploy.zip * -x "**node_modules**"
+
+    - name: Get current time
+      uses: 1466587594/get-current-time@v2
+      id: current-time
+
+    - name: Beanstalk Deploy for app
+      uses: einaregilsson/beanstalk-deploy@v14
+      with:
+        aws_access_key: ${{secrets.AWS_ACCESS_KEY}}
+        aws_secret_key: ${{secrets.AWS_SECRET_KEY}}
+        application_name: clover-web-app
+        environment_name: clover-web-env
+        region: eu-west-3
+        version_label: "pushed-${{ steps.current-time.outputs.time }}"
+        deployment_package: deploy.zip
+
+    - name: Deployed!
+      run: echo App deployed to ELB

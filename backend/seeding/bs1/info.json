@@ -1,0 +1,212 @@
+{
+  "id": "bs1",
+  "type": "shop",
+  "name": "Barber shop",
+  "screenshot": "https://cloverstatic.s3.eu-west-3.amazonaws.com/bs1-screenshot.jpg",
+
+  "defaults": {
+
+    "back_img": {
+      "type": "img",
+      "label": "Image de fond",
+      "value": {
+        "img_source": "unsplash",
+        "path": "s63RoVQ40w8",
+        "authorName": "Carlos Magno",
+        "authorUsername": "carlosmagnoreis"
+      }
+    },
+    "head_h2": {
+      "type": "title",
+      "label": "Haut du site"
+    },
+    "head_title": {
+      "type": "string",
+      "label": "Titre de votre site",
+      "value": "Fresh Cut - Barber shop à République"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Fresh Cut"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Barber shop. République, Paris 75011."
+    },
+
+    "discover_h2": {
+      "type": "title",
+      "label": "En savoir plus pour vous"
+    },
+    "discover_img": {
+      "type": "img",
+      "label": "Image de fond",
+      "value": {
+        "img_source": "unsplash",
+        "path": "kbhff9Wu21k",
+        "authorName": "Gabriella Clare Marino",
+        "authorUsername": "gabiontheroad"
+      }
+    },
+    "discover_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Une bonne journée commence toujours<br/>avec une belle coupe."
+    },
+    "discover_values": {
+      "type": "string",
+      "label": "Votre histoire",
+      "value": "L'idée nait en 2018 d'un passioné de coiffure et d'une bande de potes accros à la sneakers culture."
+    },
+    "discover_history": {
+      "type": "string",
+      "label": "La naissance de votre commerce",
+      "value": "Après des centaines de dégradés, et avoir déniché le meilleur matos parmis les plus grands coiffeurs parisiens, Yanis a ouvert son barber shop à République, au centre de la capitale."
+    },
+    "discover_anecdote": {
+      "type": "string",
+      "label": "Racontez une anecdote",
+      "value": "Rendez-vous à la fois des skateurs et des jeunes cadres dynamiques du quartier, l'ambiance sera toujours chaleureuse et vous pourrez profiter du baby-foot pour vous détendre."
+    },
+
+    "board_h2": {
+      "type": "title",
+      "label": "Carte"
+    },
+    "board_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Un service toujours parfait, une expertise unique en son genre et beaucoup de rigolade."
+    },
+    "board_subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Prenez-rendez vous avec un simple appel, on s'occupe de tout le reste. Venez comme vous êtes, comme dans votre fastfood préféré, et repartez beau comme un camion."
+    },
+    "board_dishes": {
+      "type": "array",
+      "label": "Vos principales prestations",
+      "default": {
+        "title": {
+          "type": "string",
+          "label": "Nom",
+          "value": "Coupe simple"
+        },
+        "description": {
+          "type": "string",
+          "label": "Description",
+          "value": "Shampoing naturel et éthique, coupe à la demande."
+        },
+        "price": {
+          "type": "string",
+          "label": "Prix",
+          "value": "12,00 €"
+        }
+      },
+      "value": [
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Coupe et soin visage"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Shampoing naturel et éthique, coupe à la demande, soin du visage à la vapeur et aux huiles essentielles."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "18,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "C'est toi le patron"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Shampoing naturel et éthique, coupe à la demande, soin du visage à la vapeur et aux huiles essentielles, boisson au choix et brownie au chocolat maison."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "22,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Coupe simple"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Shampoing naturel et éthique, coupe à la demande."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        }
+      ]
+    },
+    "board_img": {
+      "type": "img",
+      "label": "Image de la carte",
+      "value": {
+        "img_source": "unsplash",
+        "path": "EW_rqoSdDes",
+        "authorName": "Nathon Oski",
+        "authorUsername": "onatecan"
+      }
+    },
+    "board_label": {
+      "type": "string",
+      "label": "Description de l'image",
+      "value": "On sait que tu rêves de t'asseoir."
+    },
+    "products_h2": {
+      "type": "title",
+      "label": "Vos produits"
+    },
+    "products_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Les meilleurs produits<br/>pour votre bien."
+    },
+    "products_values": {
+      "type": "string",
+      "label": "Vos produits ont une histoire",
+      "value": "N'ayez plus peur de ce que vous mettez sur votre peau. Nous avons passé nos 2 dernières années à vous trouver les meilleurs produits pour assurer un service en or."
+    },
+    "products_history": {
+      "type": "string",
+      "label": "Abordez le bien procuré par vos produits",
+      "value": "Vous n'imaginez pas à quel point vos cheveux souffrent à l'air parisien. Il est temps de remédier à toutes les agressions grâce aux huiles naturelles."
+    },
+    "products_anecdote": {
+      "type": "string",
+      "label": "Brèves caractéristiques de vos produits",
+      "value": "Découvrez nos colorations sans ammoniaque, afin de changer votre crinière à volonté, sans risque de brûlure ou de chute de cheveux."
+    },
+    "products_img": {
+      "type": "img",
+      "label": "Image d'illustration de produits",
+      "value": {
+        "img_source": "unsplash",
+        "path": "Wg3J83R1YSQ",
+        "authorName": "Apothecary 87",
+        "authorUsername": "apothecary87"
+      }
+    }
+  }
+}

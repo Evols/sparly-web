@@ -1,0 +1,52 @@
+
+.sheet-table {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 96%;
+  margin-bottom: 6vh;
+}
+
+.sheet-table-th {
+  text-align: center;
+  min-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+
+.sheet-table-td {
+  text-align: center;
+  height: 50px;
+  border-left: 1px solid #bbbbbb;
+  font-size: 14px;
+}
+
+.sheet-table-td, .sheet-table-th {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.sheet-table-th-grey, .sheet-table-td-grey {
+  background-color: #f5f5f5;
+}
+
+.sheet-table-th-firstline:first-child, .sheet-table-td-firstline:first-child {
+  border-top-left-radius: 10px;
+}
+
+.sheet-table-td-firstline:last-child, .sheet-table-th-firstline:last-child {
+  border-top-right-radius: 10px;
+}
+
+.sheet-table-th-lastline:first-child, .sheet-table-td-lastline:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.sheet-table-td-lastline:last-child, .sheet-table-th-lastline:last-child {
+  border-bottom-right-radius: 10px;
+}

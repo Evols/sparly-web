@@ -1,0 +1,6 @@
+
+.blurrable-blurred {
+  filter: blur(3px);
+  opacity: 0.15;
+  transition: all 1s ease 0s;
+}

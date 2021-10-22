@@ -1,0 +1,7 @@
+.logout-button {
+    background: none;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

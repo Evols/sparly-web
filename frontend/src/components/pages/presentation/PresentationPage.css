@@ -1,0 +1,74 @@
+.textfield {
+  padding-top: 20px;
+  margin-left: 50px;
+}
+.introduction-text-h1 {
+  font-size: 64px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+.main-text-container-p {
+  margin-right: 60px;
+  margin-left: 50px;
+}
+.main-button-presentation-page {
+  width: 300px;
+  height: auto;
+  font-size: 1em;
+  padding: 1em 3.5em;
+  background-color: #ff0081;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  position: relative;
+  z-index: 6;
+  outline: none;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+  cursor: pointer;
+}
+.main-button-presentation-page:hover {
+  transform: scale(1.07);
+  background-color: #e60074;
+}
+.main-button-in-presentation-page {
+  width: 130px;
+  border: none;
+  background: none;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline:0
+}
+.main-button-in-left-presentation-page {
+  padding: 0;
+  width: 100px;
+  display: inline;
+  margin: 0;
+  text-align: center;
+  border-right: solid 1px white;
+}
+.main-button-in-right-presentation-page {
+  padding: 0;
+  display: inline;
+  width: 140px;
+  text-align: right;
+  margin: 0;
+  text-align: center;
+  border-left: solid 1px white;
+}
+.MuiFormLabel-root.Mui-focused{
+  color: #ff0081 !important;
+}
+.MuiInput-underline:after{
+  border-bottom: 2px solid #ff0081 !important;
+}

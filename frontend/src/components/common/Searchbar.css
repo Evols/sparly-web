@@ -1,0 +1,23 @@
+
+.searchbar-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.searchbar-container-icon {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.searchbar-input {
+  max-width: 450px;
+  height: 30px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background: transparent;
+}

@@ -1,0 +1,14 @@
+.MuiButton-contained{
+    background-color: white !important;
+    border-radius: 50px !important;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s !important;
+    box-shadow: 0 2px 25px rgba(150, 150, 150, 0.5) !important;
+}
+.MuiButton-contained:hover{
+    transform: scale(1.07) !important;
+}
+.MuiButton-containedPrimary{
+    background-color: #FF0081 !important;
+    border-radius: 50px !important;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5) !important;
+}

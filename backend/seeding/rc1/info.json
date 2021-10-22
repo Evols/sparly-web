@@ -1,0 +1,287 @@
+{
+  "id": "rc1",
+  "type": "restaurant",
+  "name": "Resto Chinois",
+  "screenshot": "https://cloverstatic.s3.eu-west-3.amazonaws.com/rc1-screenshot.jpeg",
+
+  "defaults": {
+
+    "back_img": {
+      "type": "img",
+      "label": "Image de fond",
+      "value": {
+        "img_source": "unsplash",
+        "path": "VuaRL9gtzfU",
+        "authorName": "Sebastian Holgado",
+        "authorUsername": "ohsebastian"
+      }
+    },
+    "head_h2": {
+      "type": "title",
+      "label": "Première page"
+    },
+    "head_title": {
+      "type": "string",
+      "label": "Titre de la page",
+      "value": "Easy Wok - Nouilles thailandaises à Savigny"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Easy Wok"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Nouille thailandaises à Savigny-sur-Orge."
+    },
+
+    "discover_h2": {
+      "type": "title",
+      "label": "En savoir plus pour vous"
+    },
+    "discover_img": {
+      "type": "img",
+      "label": "Image de fond",
+      "value": {
+        "img_source": "unsplash",
+        "path": "pNuCNvigfkc",
+        "authorName": "Eiliv-Sonas Aceron",
+        "authorUsername": "shootdelicious"
+      }
+    },
+    "discover_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "La street food réinventée.<br/>Des saveurs d'exception."
+    },
+    "discover_values": {
+      "type": "string",
+      "label": "Vos valeurs",
+      "value": "Nous partageons une seule mission, vous faire découvrir les saveurs authentiques de l'Asie du sud est, sans même avoir à sortir de chez vous."
+    },
+    "discover_history": {
+      "type": "string",
+      "label": "Votre histoire",
+      "value": "Le Easy Wok, c'est avant tout une histoire de potes, passionés de food et de culture urbaine, avec une énergie sans égale. On cuisine vite, et on le fait bien."
+    },
+    "discover_anecdote": {
+      "type": "string",
+      "label": "Racontez une anecdote",
+      "value": "Vous ne souhaitez pas manquer le match ? Aucun soucis, on vous sert tous les jours jusqu'à minuit avec une redifusion sur grand écran."
+    },
+
+    "board_h2": {
+      "type": "title",
+      "label": "Carte"
+    },
+    "board_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Découvrez notre carte et laissez vous tenter par nos best-sellers."
+    },
+    "board_subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Des plats de nouilles a la demande, pour tous les goûts, préparés minute pour garantir la meilleur dégustation de produits frais et de viandes halal."
+    },
+    "board_dishes": {
+      "type": "array",
+      "label": "Plats",
+      "default": {
+        "title": {
+          "type": "string",
+          "label": "Nom",
+          "value": "Le Frenchy"
+        },
+        "description": {
+          "type": "string",
+          "label": "Description",
+          "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+        },
+        "price": {
+          "type": "string",
+          "label": "Prix",
+          "value": "12,00 €"
+        }
+      },
+      "value": [
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Le Frenchy"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Le Frenchy"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Le Frenchy"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        }
+      ]
+    },
+    "board_drinks": {
+      "label": "Boissons",
+      "type": "array",
+      "default": {
+        "title": {
+          "type": "string",
+          "label": "Nom",
+          "value": "Le Frenchy"
+        },
+        "description": {
+          "type": "string",
+          "label": "Description",
+          "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+        },
+        "price": {
+          "type": "string",
+          "label": "Prix",
+          "value": "12,00 €"
+        }
+      },
+      "value": [
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Le Frenchy"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Le Frenchy"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Le Frenchy"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "Base au choix, rosbeef, champignons de Paris, oignons rouge, sauce honey moutarde, oignons frits et ail frits."
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        }
+      ]
+    },
+    "board_img": {
+      "type": "img",
+      "label": "Image de la carte",
+      "value": {
+        "img_source": "unsplash",
+        "path": "D-vDQMTfAAU",
+        "authorName": "Charles Deluvio",
+        "authorUsername": "charlesdeluvio"
+      }
+    },
+    "board_label": {
+      "type": "string",
+      "label": "Label de l'image de la carte",
+      "value": "Ravioles aux légumes d'été."
+    },
+
+    "products_h2": {
+      "type": "title",
+      "label": "Produits"
+    },
+    "products_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Des ingrédients de qualité.<br/>Une fraicheur garantie."
+    },
+    "products_values": {
+      "type": "string",
+      "label": "Valeurs",
+      "value": "Nous partageons une seule mission, vous faire découvrir les saveurs authentiques de l'Asie du sud est, sans même avoir à sortir de chez vous."
+    },
+    "products_history": {
+      "type": "string",
+      "label": "Votre histoire",
+      "value": "Le Easy Wok, c'est avant tout une histoire de potes, passionés de food et de culture urbaine, avec une énergie sans égale. On cuisine vite, et on le fait bien."
+    },
+    "products_anecdote": {
+      "type": "string",
+      "label": "Anecdote",
+      "value": "Vous ne souhaitez pas manquer le match ? Aucun soucis, on vous sert tous les jours jusqu'à minuit avec une redifusion sur grand écran.."
+    },
+    "products_img": {
+      "type": "img",
+      "label": "Image de fin",
+      "value": {
+        "img_source": "unsplash",
+        "path": "XgFFJKSPkNk",
+        "authorName": "Victoria Shes",
+        "authorUsername": "victoriakosmo"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+ <defs>
+  <text id="string" transform="matrix(1.0 0.0 0.0 1.0 4.0 16.0)" font-family="SpeedballNo1NF, Speedball No1 NF" x="8.040000000000006" text-decoration="none" font-size="120" fill="#1abc9c" y="130.0">Clo</text>
+ </defs>
+ <use id="Clo" xlink:href="#string"/>
+</svg>

@@ -1,0 +1,59 @@
+
+.panel-container-add-button {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-color: #E2E2E2;
+  border: none;
+  border-radius: 50px;
+  right: 25px;
+  top: -23px;
+  cursor: pointer;
+  outline: none;
+  flex: 0;
+  flex-grow: 0;
+}
+
+.panel-container-add-button:hover {
+  background-color: #D3D3D3;
+}
+
+.panel-container-add-button-plus {
+  width: 92%;
+  margin-top: 2px;
+}
+
+.panel-container {
+  text-align: left;
+  height: 100%;
+}
+
+.panel-container-sub {
+  height: 100%;
+  position: relative;
+  width: calc(100% - 20px);
+  display: flex;
+  margin-top: 24px;
+  flex-direction: column;
+  justify-content: flex-start; /* Replaced start with flex-start */
+  align-items: center;
+}
+
+.panel-container-inner {
+  height: 100%;
+  position: relative;
+  width: calc(100% - 25px);
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 22px 7px rgba(0,0,0,0.03);
+  -moz-box-shadow: 0px 0px 22px 7px rgba(0,0,0,0.03);
+  box-shadow: 0px 0px 22px 7px rgba(0,0,0,0.03);
+}
+
+.panel-container-inner-h2 {
+  margin-left: 35px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}

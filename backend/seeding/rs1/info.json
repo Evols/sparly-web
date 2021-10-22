@@ -1,0 +1,192 @@
+{
+  "id": "rs1",
+  "type": "restaurant",
+  "name": "Fuji Sushi",
+  "screenshot": "https://cloverstatic.s3.eu-west-3.amazonaws.com/rs1-screenshot.jpg",
+
+  "defaults": {
+
+    "back_img": {
+      "type": "img",
+      "label": "Image de fond",
+      "value": {
+        "img_source": "unsplash",
+        "path": "-1GEAA8q3wk",
+        "authorName": "Vinicius Benedit",
+        "authorUsername": "viniciusbenedit"
+      }
+    },
+    "head_h2": {
+      "type": "title",
+      "label": "Haut du site"
+    },
+    "head_title": {
+      "type": "string",
+      "label": "Nom de votre site (n'est pas visible sur le site)",
+      "value": "Fuji Sushi - Restaurant Japonais à République"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Fuji Sushi"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Sushi. République, Paris 75011."
+    },
+
+    "discover_h2": {
+      "type": "title",
+      "label": "En savoir plus pour vous"
+    },
+    "discover_img": {
+      "type": "img",
+      "label": "Image d'illustration",
+      "value": {
+        "img_source": "unsplash",
+        "path": "iy_MT2ifklc",
+        "authorName": "Andraz Lazic",
+        "authorUsername": "andrazlazic"
+      }
+    },
+    "discover_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Une bonne journée commence toujours<br/>avec de bons sushis."
+    },
+    "discover_values": {
+      "type": "string",
+      "label": "Votre histoire",
+      "value": "L'idée nait en 2018 d'un passioné de sushis et d'une bande de potes accros à la culture japonaise."
+    },
+    "discover_history": {
+      "type": "string",
+      "label": "La naissance de votre commerce",
+      "value": "Après des centaines de clients servis, et avoir déniché le meilleur ingrédients parmis les plus grands fournisseurs japonais, Maxime a ouvert son restaurant à République, au centre de la capitale."
+    },
+
+    "board_h2": {
+      "type": "title",
+      "label": "Carte"
+    },
+    "board_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Un service toujours parfait, des sushis uniques et beaucoup de convivialité."
+    },
+    "board_subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "value": "Réservez avec un simple appel, on s'occupe de tout le reste. Venez comme vous êtes, comme dans votre fastfood préféré."
+    },
+    "board_dishes": {
+      "type": "array",
+      "label": "Vos principaux plats",
+      "default": {
+        "title": {
+          "type": "string",
+          "label": "Nom",
+          "value": "Menu Mixte B10"
+        },
+        "description": {
+          "type": "string",
+          "label": "Description",
+          "value": "C4 sushi saumon, 5 brochettes (2 poulet, 1 boulettes de poulet, 1 bœuf, 1 fromage enrobé bœuf)"
+        },
+        "price": {
+          "type": "string",
+          "label": "Prix",
+          "value": "12,00 €"
+        }
+      },
+      "value": [
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Menu Mixte B10"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "C4 sushi saumon, 5 brochettes (2 poulet, 1 boulettes de poulet, 1 bœuf, 1 fromage enrobé bœuf)"
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "14,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Menu Mixte B11"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "6 california maki, 5 brochettes (2 poulet, 1 boulettes de poulet, 1 bœuf et 1 fromage enrobé bœuf)"
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "12,00 €"
+          }
+        },
+        {
+          "title": {
+            "type": "string",
+            "label": "Nom",
+            "value": "Menu Spécial Fuji"
+          },
+          "description": {
+            "type": "string",
+            "label": "Description",
+            "value": "6 california maki, 6 sushi, 20 sashimi, 10 brochettes (4 poulet, 2 boulettes de poulet, 2 bœuf et 2 fromages enrobé bœuf), 2 soupes, 2 crudités et 2 riz"
+          },
+          "price": {
+            "type": "string",
+            "label": "Prix",
+            "value": "40,00 €"
+          }
+        }
+      ]
+    },
+    "products_h2": {
+      "type": "title",
+      "label": "Vos produits"
+    },
+    "products_title": {
+      "type": "string",
+      "label": "Titre",
+      "value": "Les meilleurs produits<br/>pour votre bien."
+    },
+    "products_values": {
+      "type": "string",
+      "label": "Vos produits ont une histoire",
+      "value": "N'ayez plus peur de ce que vous mangez. Nous avons passé nos 2 dernières années à vous trouver les meilleurs produits pour assurer le meilleur goût possible."
+    },
+    "products_img": {
+      "type": "img",
+      "label": "Image d'illustration de produits",
+      "value": {
+        "img_source": "unsplash",
+        "path": "AKCB74kr4UI",
+        "authorName": "GoodEats YQR",
+        "authorUsername": "goodeats_yqr"
+      }
+    },
+    "other_img": {
+      "type": "img",
+      "label": "Autre image d'illustration de produits",
+      "value": {
+        "img_source": "unsplash",
+        "path": "dKhkCiD4zEQ",
+        "authorName": "Ramille Soares",
+        "authorUsername": "ramillesoares"
+      }
+    }
+  }
+}
