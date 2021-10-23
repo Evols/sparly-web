@@ -32,8 +32,6 @@ If we have a field `name` which value is `Baptiste`, the generated HTML code is:
 <div>Baptiste</div>
 ```
 
-TODO: finish
-
 ## Sparly descriptor of the template
 
 To handle data in Sparly web, each template needs a decriptor, which is a file that contains metadata about each field, such as their type (string, image, array). If the field is an array, its children will be typed objects.
@@ -44,7 +42,7 @@ The "title" type is not editable: it's used as a section title, only used in the
 
 The description is a JSON document, with an example below:
 
-```json
+```jsonc
 {
     /*
      * Section titles have the "title" type. They are not editable in the form: it's used as a section title, only used in the form, not on the web page.
@@ -139,7 +137,7 @@ The description is a JSON document, with an example below:
 
 Et les données injectées dans EJS seront les suivantes:
 
-```json
+```jsonc
 {
     "title": "Mon super site !",
     "main_image": "https://source.unsplash.com/idk42lBPleA",
